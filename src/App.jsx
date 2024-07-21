@@ -3,10 +3,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Technologies from './components/Technologies'
+import Experience from './components/Experience'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <React.Fragment>
@@ -17,6 +17,7 @@ function App() {
           <Hero/>
           <About/>
           <Technologies/>
+          <Experience/>
         </div>
       </div>
 
