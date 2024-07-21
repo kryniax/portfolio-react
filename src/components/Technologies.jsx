@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+
 import { BiLogoTypescript } from 'react-icons/bi'
 import { FaCss3Alt, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
@@ -9,7 +11,12 @@ const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
         <h2 className='my-20 text-center text-4xl'>Technologies</h2>
-        <div className='flex flex-wrap items-center justify-center gap-4'>
+        <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 80 }}
+            transition={{ duration: .5 }}  
+            className='flex flex-wrap items-center justify-center gap-4'
+        >
             <div className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <RiReactjsLine 
                     color='#61DBFB' 
@@ -63,7 +70,7 @@ const Technologies = () => {
                     className='text-7xl'
                 />
             </div>
-        </div>
+        </motion.div>
     </div>
   )
 }
