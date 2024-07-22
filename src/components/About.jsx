@@ -22,12 +22,12 @@ const About = () => {
             >
                 <div className='flex lg:flex-col items-center justify-center gap-6 mb-6 lg:mb-0'>
                     <div className='w-1/2 h-24 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col text-center p-4'>
-                        <h4 className='font-bold'>Location</h4>
-                        <p>Poland</p>
-                    </div>
-                    <div className='w-1/2 h-24 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col text-center p-4'>
                         <h4 className='font-bold'>Experience</h4>
                         <p>4 years</p>
+                    </div>
+                    <div className='w-1/2 h-24 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col text-center p-4'>
+                        <h4 className='font-bold'>Location</h4>
+                        <p>Poland</p>
                     </div>
                 </div>
             </motion.div>

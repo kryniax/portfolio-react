@@ -3,6 +3,11 @@ import { motion } from 'framer-motion'
 import { EXPERIENCES } from '../assets/data/data'
 
 const Experience = () => {
+
+    const modifySingleChars = (str) => {
+        return str.replace(/ ([a-zA-Z]) /g,' $1' + '\u00A0');
+    } 
+
   return (
     <div className='border-b border-neutral-900 pb-4'>
         <motion.h2 
@@ -36,7 +41,7 @@ const Experience = () => {
                                 {experience.company}
                             </p>
                         </h6>
-                        <p className='text-justify'>{experience.description}</p>
+                        <p className='text-justify'>{modifySingleChars(experience.description)}</p>
                         {experience.technologies.map((tech, index) => (
                             <span
                                 key={index}

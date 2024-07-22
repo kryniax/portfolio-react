@@ -12,7 +12,7 @@ import Loader from './components/Loader'
 function App() {
 
   const [isLoading, setIsLoading] = useState(true);
-  const [showContent, setShowContent] = useState(true);
+  const [showContent, setShowContent] = useState(false);
 
   const handleLoaderLoaded = () => {
     setIsLoading(false);
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className='text-neutral-300 antialiased selection:bg-cyan-600 selection: text-cyan-900'>
+      <div className='text-neutral-300 antialiased selection:bg-cyan-600 selection:text-cyan-900'>
         <div className='container mx-auto px-8'>
           {showContent && (
             <React.Fragment>

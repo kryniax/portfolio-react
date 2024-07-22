@@ -1,4 +1,3 @@
-import Neptun from '../img/neptun.webp'
 import Kwiatostan from '../img/projects/kwiatostan.jpg'
 import Kursy from '../img/projects/kursy.jpg'
 import Konferencja from '../img/projects/konferencja.jpg'
@@ -15,13 +14,11 @@ import KWmap from '../img/projects/KWmap.jpg'
 import Food from '../img/projects/food.png'
 
 
-export const HERO = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive 
-in collaborative environments.
-`;
+export const HERO = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive in collaborative environments.`;
 
-export const ABOUT = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive 
-in collaborative environments.
-`;
+export const ABOUT = `For over four years, I have been developing my skills as a front-end developer, with a focus on the React framework. During this time, I have gained experience working on various projects, both individually and in teams. In my career so far, I have had the opportunity to participate in the creation of e-commerce applications, educational platform, content management systems, single-page applications and classic websites which has allowed me to acquire extensive knowledge and skills in creating interactive, responsive, and efficient web applications.
+I have solid foundations in HTML, CSS, and JavaScript, as well as experience using libraries. I always strive to write clean, modular code and follow best practices in optimizing applications.
+I am an ambitious, self-reliant individual, focused on continuous development. I value teamwork and willingly share my knowledge and help other team members solve problems. My professional experience has taught me effective communication and flexibility in adapting to changing project requirements.`;
 
 export const EXPERIENCES = [
   {
@@ -51,98 +48,98 @@ export const PROJECTS = [
     title: "Kwiatostan (work in progress)",
     image: Kwiatostan,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Kwiatostan is a website presenting the delivery service of custom bouquets with the option to configure the bouquet.`,
     technologies: ["React", "JavaScript", "React Router", "Swiper.js", "GSAP", "CSS Modules"],
   },
   {
     title: "Food App (work in progress)",
     image: Food,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Food App is a full-stack application that operates similarly to takeaway.com. Food App allows users to create an account, place an order, and access an administrative panel..`,
     technologies: ["React", "TypeScript", "React Router", "React Query", "React Hook Form", "TailwindCSS", "Node.js", "Express", "Auth0", "MongoDB"],
   },
   {
     title: "Indigo Nails Streaming Platform",
     image: Kursy,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Indigo Educational Platform is an application based on video materials intended for the beauty industry. It allows the purchase of multi-episode courses and account personalization.`,
     technologies: ["HTML", "CSS", "JavaScript", "Video.js", "Swiper.js", "Axios"],
   },
   {
     title: "Indigo Nails Conference",
     image: Konferencja,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Landing page promoting an online event targeted at beauticians and manicurists to present new products.`,
     technologies: ["React", "JavaScript", "React Router", "React Hook Form", "Swiper.js", "GSAP", "CSS Modules"],
   },
   {
     title: "Young Team",
     image: Young,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Landing page encouraging young manicurists to participate in a program that expands their knowledge and provides an Indigo instructor certificate. `,
     technologies: ["React", "JavaScript", "Swiper.js", "Axios", "TailwindCSS"],
   },
   {
     title: "Protein Treatment",
     image: Zabieg,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Landing page promoting an online event for manicurists to present the protein base.`,
     technologies: ["React", "TypeScript", "React Hook Form", "React Router", "Axios", "CSS Modules"],
   },
   {
     title: "Ausbilder",
     image: Ausbilder,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Landing page encouraging manicurists in Germany to join the Indigo instructor team.`,
     technologies: ["React", "JavaScript", "React Router", "React Hook Form", "React Helmet", "i18next", "CSS Modules"],
   },
   {
     title: "NailSpot",
     image: NailSpot,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Landing page promoting the NailSpot app for manicurists.`,
     technologies: ["React", "JavaScript", "React Router", "React Hook Form", "React Scroll", "CSS Modules"],
   },
   {
     title: "Hedo Designers",
     image: Hedo,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Single Page form used for registering for the HedoDesigners program by the Hedonista brand.`,
     technologies: ["React", "JavaScript", "React Router", "React Helmet", "React Hook Form", "i18next", "CSS Modules"],
   },
   {
     title: "Holy Beauty",
     image: Holy,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `An online store built on the WordPress and WooCommerce.`,
     technologies: ["HTML", "CSS", "JavaScript", "Wordpress", "WooCommerce"],
   },
   {
     title: "O.S.A design",
     image: Osa,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `Architectural studio business card website.`,
     technologies: ["HTML", "CSS", "JavaScript", "Wordpress", "Elementor"],
   },
   {
     title: "Currency Converter",
     image: Currency,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `A currency conversion application that records all operations to a list. Currency values are retrieved via an API.`,
     technologies: ["React", "TypeScript", "React Router", "React Hook Form", "Video.js", "Swiper.js", "CSS Modules"],
   },
   {
     title: "KWCovid",
     image: KWcovid,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `KWCovid is a simple application displaying the current number of people infected with COVID-19 on advertising banners inside trains.`,
     technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Axios"],
   },
   {
     title: "KWmap",
     image: KWmap,
     description:
-      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+      `KWmap is an application used to display the current location of vehicles of the Koleje Wielkopolskie company. It is integrated with the API and has access levels for viewers.`,
     technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Leaflet.js", "Axios"],
   },
 ];
