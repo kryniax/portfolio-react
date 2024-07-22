@@ -15,7 +15,7 @@ const container = delay => ({
 
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className='border-b border-neutral-900 pb-4 lg:mb-35 lg:pt-16'>
         <div className='flex flex-wrap'>
             <div className="pl-8 w-full lg:w-1/2">
                 <div className='flex flex-col items-center lg:items-start'>
@@ -23,7 +23,7 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className='pb-6 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl'
+                        className='pb-2 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl'
                     >
                         Krystian Kozak
                     </motion.h1>
