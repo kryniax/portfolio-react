@@ -14,7 +14,26 @@
   mask-image: linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 1) 25%);
 }
 
+
 :root {
   font-family: "Montserrat", sans-serif;
   background-color: #191919;
+  
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #222;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #191919;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(38, 38, 38);
+    border: 3px solid rgb(38, 38, 38);
+    border-radius: 10px;
+  }
+  
+
 }
