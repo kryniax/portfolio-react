@@ -37,7 +37,7 @@ const Experience = () => {
                                 {experience.company}
                             </p>
                         </h6>
-                        <p>{experience.description}</p>
+                        <p className='text-justify'>{experience.description}</p>
                         {experience.technologies.map((tech, index) => (
                             <span
                                 key={index}

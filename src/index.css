@@ -14,7 +14,6 @@
   mask-image: linear-gradient(0deg, transparent 0%, rgba(0, 0, 0, 1) 25%);
 }
 
-
 :root {
   font-family: "Montserrat", sans-serif;
   background-color: #191919;
@@ -23,17 +22,44 @@
     scrollbar-width: thin;
     scrollbar-color: #222;
   }
+
   ::-webkit-scrollbar {
     width: 12px;
   }
+
   ::-webkit-scrollbar-track {
     background: #191919;
   }
+
   ::-webkit-scrollbar-thumb {
     background-color: rgb(38, 38, 38);
     border: 3px solid rgb(38, 38, 38);
     border-radius: 10px;
   }
-  
+  #sidebar {
+    --tw-translate-x: -100%;
+}
+#menu-close-icon {
+    display: none;
+}
+
+#menu-open:checked ~ #sidebar {
+    --tw-translate-x: 0;
+}
+#menu-open:checked ~ * #mobile-menu-button {
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+#menu-open:checked ~ * #menu-open-icon {
+    display: none;
+}
+#menu-open:checked ~ * #menu-close-icon {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #sidebar {
+        --tw-translate-x: 0;
+    }
+}
 
 }
