@@ -10,10 +10,17 @@ import { TbBrandNextjs } from 'react-icons/tb'
 const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
-        <h2 className='my-20 text-center text-4xl'>Technologies</h2>
-        <motion.div
+        <motion.h2 
             whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 1 }}  
+            className='my-20 text-center text-4xl'
+        >
+            Technologies
+        </motion.h2>
+        <motion.div
+            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
             transition={{ duration: .5 }}  
             className='flex flex-wrap items-center justify-center gap-4'
         >

@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
 import { EXPERIENCES } from '../assets/data/data'
 
 const Experience = () => {
@@ -20,7 +19,7 @@ const Experience = () => {
                     <motion.div 
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
-                        transition={{ duration: 1 }} 
+                        transition={{ duration: 0.5 }} 
                         className='w-full lg:w-1/4'
                     >
                         <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>

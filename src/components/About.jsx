@@ -1,20 +1,26 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
 import { ABOUT } from '../assets/data/data'
 
 const About = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
-        <h2 className='my-20 text-center text-4xl'>About me</h2>
-        <div className='flex flex-wrap'>
+        <motion.h2
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className='my-16 lg:my-20 text-center text-4xl'
+        >
+            About me
+        </motion.h2>
+        <div className='flex flex-wrap items-center'>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: .5 }} 
                 className='w-full lg:w-1/2 lg:p-8'
             >
-                <div className='flex lg:flex-col items-center justify-center gap-6'>
+                <div className='flex lg:flex-col items-center justify-center gap-6 mb-6 lg:mb-0'>
                     <div className='w-1/2 h-24 rounded-2xl border-4 border-neutral-800 p-4 flex flex-col text-center p-4'>
                         <h4 className='font-bold'>Location</h4>
                         <p>Poland</p>

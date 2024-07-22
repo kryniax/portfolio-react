@@ -1,11 +1,19 @@
 import React from 'react'
-import { CONTACT } from '../assets/data/data'
+import { motion } from 'framer-motion'
 import Socials from './Socials'
+import { CONTACT } from '../assets/data/data'
 
 const Contact = () => {
   return (
     <div className='border-b border-neutral-900 pb-20'>
-        <h2 className='my-10 text-center text-4xl'>Contact</h2>
+        <motion.h2
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: .5 }}  
+          className='my-10 text-center text-4xl'
+        >
+          Contact
+        </motion.h2>
         <div className='flex flex-col items-center text-center tracking-tighter'>
             <a 
                 href="https://krystiankozak.com/resume_krystian_kozak.pdf"

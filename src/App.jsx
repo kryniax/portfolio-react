@@ -12,7 +12,7 @@ import Loader from './components/Loader'
 function App() {
 
   const [isLoading, setIsLoading] = useState(true);
-  const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(true);
 
   const handleLoaderLoaded = () => {
     setIsLoading(false);
