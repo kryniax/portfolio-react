@@ -122,7 +122,7 @@ export const PROJECTS = [
     image: Osa,
     description:
       `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
-    technologies: ["HTML", "CSS", "JavaScript", "Wordpress"],
+    technologies: ["HTML", "CSS", "JavaScript", "Wordpress", "Elementor"],
   },
   {
     title: "Currency Converter",

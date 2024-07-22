@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
             </a>
             <p className='my-2'>{CONTACT.address}</p>
-            <a href='tel:0048781580273' className='my-2'>{CONTACT.phoneNo}</a>
+            <a href='tel:+48781580273' className='my-2'>{CONTACT.phoneNo}</a>
             <a href='mailto:dev@krystiankozak.com' className='my-2'>{CONTACT.email}</a>
             <div className='flex gap-2 text-xl py-4'>
               <Socials/>
