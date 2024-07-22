@@ -1,60 +1,57 @@
 import Neptun from '../img/neptun.webp'
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive 
+in collaborative environments.
+`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive 
+in collaborative environments.
+`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Frontend Developer",
     company: "Indigo Nails",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Creating and developing scalable web applications using JavaScript, React, and TypeScript. Implementing user interfaces provided in Figma according to best UX/UI practices, ensuring smooth and intuitive user experiences. Close collaboration with the backend team to integrate APIs and optimize application performance. Cooperation with UX Designer. Preparing landing pages. Implementing functionalities for currently developed projects. Optimizing pages for smartphones.`,
     technologies: ["Javascript", "TypeScript", "React.js", "CSS Modules"],
   },
   {
     year: "2022 - 2023",
     role: "Full Stack Developer",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Developing one page websites. Creating web applications using the React.js. Developing CMS-based websites with WordPress. Implementing WooCommerce stores. Identifying and solving issues related to improperly written source code for websites and applications.`,
     technologies: ["React", "WordPress", "WooCommerce"],
   },
   {
     year: "2020 - 2022",
     role: "Junior Full Stack Developer",
     company: "Koleje Wielkopolskie",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Developing websites and web applications. Creating interfaces based on REST API with Leaflet.js. Fixing existing bugs. Implementing database logic using SQLite and MS SQL (T-SQL). `,
     technologies: ["JavaScript", "React", "CSS", "T-SQL"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Courses Indigo Nails",
+    title: "Indigo Nails Streaming Platform",
     image: Neptun,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Video.js", "Swiper.js"],
   },
   {
-    title: "Task Management App",
+    title: "Indigo Nails Streaming Platform",
     image: Neptun,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Video.js", "Swiper.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "Indigo Nails Streaming Platform",
     image: Neptun,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: Neptun,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      `A service serving as an educational platform in the beauty industry. It is based on multi-part video courses for manicurists. The project is made in JavaScript along with the use of mainly Video.js and Swiper.js libraries.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Video.js", "Swiper.js"],
   },
 ];
 
