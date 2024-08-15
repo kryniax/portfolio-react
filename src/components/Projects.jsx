@@ -31,6 +31,7 @@ const Projects = () => {
                             src={project.image}
                             width={250}
                             alt={project.title}
+                            title={project.title}
                             className='mb-6 rounded'
                         />
                     </motion.div>

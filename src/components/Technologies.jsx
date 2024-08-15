@@ -5,7 +5,6 @@ import { BiLogoTypescript } from 'react-icons/bi'
 import { FaCss3Alt, FaHtml5, FaNodeJs } from 'react-icons/fa'
 import { RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
-import { TbBrandNextjs } from 'react-icons/tb'
 
 const Technologies = () => {
   return (
@@ -24,58 +23,61 @@ const Technologies = () => {
             transition={{ duration: .5 }}  
             className='flex flex-wrap items-center justify-center gap-4'
         >
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <RiReactjsLine 
                     color='#61DBFB' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>React</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <BiLogoTypescript 
                     color='#3178C6' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>TypeScript</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <RiJavascriptFill 
                     color='#f7df1e' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>JavaScript</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <TbBrandNextjs 
-                    className='text-7xl'
-                />
-            </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <FaNodeJs 
                     color='#68a063' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>Node.js</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <SiMongodb 
                     color='#00ED64' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>MongoDB</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <RiTailwindCssFill 
                     color='#06b6d4' 
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>Tailwind</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <FaCss3Alt
                     color='#2965f1'
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>CSS3</span>
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='flex flex-col items-center rounded-2xl border-4 border-neutral-800 px-6 py-4'>
                 <FaHtml5
                     color='#f06529'
                     className='text-7xl'
                 />
+                <span className='text-sm text-neutral-400'>HTML5</span>
             </div>
         </motion.div>
     </div>

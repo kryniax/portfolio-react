@@ -42,6 +42,7 @@ const About = () => {
                     <a 
                         href="https://krystiankozak.com/resume_krystian_kozak.pdf"
                         target='_blank'
+                        title='My Resume'
                         className='my-2 transtion group flex h-12 w-36 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-900 p-[2px] duration-50 hover:shadow-2xl hover:shadow-blue-900/30 hover:bg-gradient-to-r hover:from-blue-300 hover:to-blue-700'
                     >
                         <div className="flex h-full w-full items-center justify-center rounded-full bg-[#191919]">
