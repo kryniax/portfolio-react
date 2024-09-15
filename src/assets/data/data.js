@@ -12,6 +12,7 @@ import Ausbilder from '../img/projects/ausbilder.jpg'
 import KWcovid from '../img/projects/KWcovid.jpg'
 import KWmap from '../img/projects/KWmap.jpg'
 import Food from '../img/projects/food.png'
+import Recipe from '../img/projects/recipe.png'
 
 
 export const HERO = `I am an experienced programmer specializing in React and TypeScript. Currently, I am engaged in a full-stack private project utilizing TypeScript, React, MongoDB, and Node.js. My passion for coding drives me to continually enhance my skills and stay updated with the latest industry trends. I am adept at building dynamic, efficient web pages and applications and thrive in collaborative environments.`;
@@ -22,20 +23,23 @@ I am an ambitious, self-reliant individual, focused on continuous development. I
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    startTime: "2023",
+    endTime: "Present",
     role: "Frontend Developer",
     company: "Indigo Nails",
     description: `Creating and developing scalable web applications using JavaScript, React, and TypeScript. Implementing user interfaces provided in Figma according to best UX/UI practices, ensuring smooth and intuitive user experiences. Close collaboration with the backend team to integrate APIs and optimize application performance. Cooperation with UX Designer. Preparing landing pages. Implementing functionalities for currently developed projects. Optimizing pages for smartphones.`,
     technologies: ["Javascript", "TypeScript", "React.js", "CSS Modules", "CSS", "HTML"],
   },
   {
-    year: "2022 - 2023",
+    startTime: "2022",
+    endTime: "2023",
     role: "Full Stack Developer",
     description: `Developing one page websites. Creating web applications using the React.js. Developing CMS-based websites with WordPress. Implementing WooCommerce stores. Identifying and solving issues related to improperly written source code for websites and applications.`,
     technologies: ["React", "WordPress", "WooCommerce"],
   },
   {
-    year: "2020 - 2022",
+    startTime: "2020",
+    endTime: "2022",
     role: "Junior Full Stack Developer",
     company: "Koleje Wielkopolskie",
     description: `Developing websites and web applications. Creating interfaces based on REST API with Leaflet.js. Fixing existing bugs. Implementing database logic using SQLite and MS SQL (T-SQL). `,
@@ -45,18 +49,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Kwiatostan (work in progress)",
-    image: Kwiatostan,
+    title: "Recipe App (work in progress)",
+    image: Recipe,
     description:
-      `Kwiatostan is a website presenting the delivery service of custom bouquets with the option to configure the bouquet.`,
-    technologies: ["React", "JavaScript", "React Router", "Swiper.js", "GSAP", "CSS Modules"],
+      `Recipe App is a full-stack application where you can add your own recipes, browse, and manage them.`,
+    technologies: ["React", "TypeScript", "React Router", "React Hook Form", "TailwindCSS", "Node.js", "Express", "MongoDB"],
   },
   {
     title: "Food App (work in progress)",
     image: Food,
     description:
-      `Food App is a full-stack application that operates similarly to takeaway.com. Food App allows users to create an account, place an order, and access an administrative panel..`,
+      `Food App is a full-stack application that operates similarly to takeaway.com. Food App allows users to create an account, place an order, and access an administrative panel.`,
     technologies: ["React", "TypeScript", "React Router", "React Query", "React Hook Form", "TailwindCSS", "Node.js", "Express", "Auth0", "MongoDB"],
+  },
+  {
+    title: "Kwiatostan",
+    image: Kwiatostan,
+    description:
+      `Kwiatostan is a website presenting the delivery service of custom bouquets with the option to configure the bouquet.`,
+    technologies: ["React", "JavaScript", "React Router", "Swiper.js", "GSAP", "CSS Modules"],
   },
   {
     title: "Indigo Nails Streaming Platform",
@@ -145,7 +156,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Senatorska 50, Łódź, Poland",
   phoneNo: "+48 781 580 273",
   email: "dev@krystiankozak.com",
 };

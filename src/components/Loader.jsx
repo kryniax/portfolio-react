@@ -39,7 +39,7 @@ const Loader = (props) => {
   return (
     <AnimatePresence>
         {props.isLoading && (
-        <motion.div
+        <motion.section
         exit={{ scale: 0 }}
         key="exit"
         transition={{
@@ -107,7 +107,7 @@ const Loader = (props) => {
                 />
             </g>
         </motion.svg>
-    </motion.div>
+    </motion.section>
         )}
     </AnimatePresence>
   )

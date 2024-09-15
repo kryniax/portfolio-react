@@ -25,7 +25,9 @@ function App() {
         <div className='container mx-auto px-8'>
           {showContent && (
             <React.Fragment>
-              <Navbar/>
+              <header>
+                <Navbar/>
+              </header>
               <main className='overflow-x-hidden'>
                 <Hero/>
                 <About/>
